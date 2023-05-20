@@ -1,0 +1,52 @@
+{
+  "techs": [
+    {
+      "icon": "devicon-html5-plain colored",
+      "name": "HTML5"
+    },
+    {
+      "icon": "devicon-css3-plain colored",
+      "name": "CSS3"
+    },
+    {
+      "icon": "devicon-javascript-plain colored",
+      "name": "Javascript"
+    },
+    {
+      "icon": "devicon-typescript-plain colored",
+      "name": "Typescript"
+    },
+    {
+      "icon": "devicon-react-original colored",
+      "name": "React"
+    },
+    {
+      "icon": "devicon-express-original colored",
+      "name": "Express"
+    },
+    {
+      "icon": "devicon-nodejs-plain colored",
+      "name": "Node.js"
+    },
+    {
+      "icon": "devicon-csharp-plain colored",
+      "name": "C#"
+    },
+    {
+      "icon": "devicon-tailwindcss-plain colored",
+      "name": "tailwindcss"
+    },
+    {
+      "icon": "devicon-git-plain colored",
+      "name": "git"
+    },
+    {
+      "icon": "devicon-mongodb-plain colored",
+      "name": "Mongo"
+    },
+    {
+      "icon": "devicon-sqlite-plain colored",
+      "name": "sqlite"
+    }
+  ]
+}

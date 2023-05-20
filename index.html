@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
@@ -13,6 +16,7 @@
   <link rel="stylesheet" href="styles/style.css">
   <title>Ian Vitor</title>
 </head>
+
 <body>
   <header class="flex">
     <h1 id="header_title">Ian Vitor</h1>
@@ -21,33 +25,63 @@
         <li><a href="#">Sobre</a></li>
         <li><a href="#">Tecnologias</a></li>
         <li><a href="#">Projetos</a></li>
-        <li><a href="#">Contato</a></li>
       </ul>
     </nav>
-    <section class="flex">
+    <section class="icons_container flex">
       <a class="icon" href="https://github.com/IanVitor" target="_blank"><i class="devicon-github-original"></i></a>
-      <a class="icon" href="https://www.linkedin.com/in/ian-vitor-moraes-da-silva/" target="_blank"><i class="devicon-linkedin-plain"></i></a>
+      <a class="icon" href="https://www.linkedin.com/in/ian-vitor-moraes-da-silva/" target="_blank"><i
+          class="devicon-linkedin-plain"></i></a>
       <a class="icon" href="mailto:ianvitor976@gmail.com" target="_blank"><i class=" fa-solid fa-envelope"></i></a>
     </section>
   </header>
 
-  <section class="profile flex">
-    <aside class="left_profile flex">
-      <h1>Desenvolvedor <br> Web Fullstack</h1>
-      <p>Sou um desenvolvedor Web Fullstack e sou apaixonado por tecnologia, estou sempre buscando aprimorar minhas habilidades e conhecimentos.</p>
-      <div class="left_profile_button">        
-        <button>Dowload CV</button>
-      </div>
-    </aside>
-    <aside class="right_profile flex">
-      <div class="profile_img"></div>
-      <img id="circle_img" src="assets/Ellipse_15.svg" alt="decoration image">
-      <img id="aurea_img" src="assets/Ellipse_14.svg" alt="decoration image">
-    </aside>
-  </section>
+  <main>
+    <section class="profile flex">
+      <aside class="left_profile flex">
+        <h1>Desenvolvedor <br> Web Fullstack</h1>
+        <p>Graduando em ciência da computação, buscando desenvolver minhas hard e soft skills.</p>
+        <div class="left_profile_button">
+          <button>Dowload CV</button>
+        </div>
+      </aside>
+      <aside class="right_profile flex">
+        <div class="profile_img"></div>
+        <img id="circle_img" src="assets/Ellipse_15.svg" alt="decoration image">
+        <img id="aurea_img" src="assets/Ellipse_14.svg" alt="decoration image">
+      </aside>
+    </section>
+
+    <section class="about">
+      <h1 class="title">Sobre</h1>
+      <aside class="about_content">
+        <p>Olá, sou um desenvolvedor Web e atualmente estou cursando Ciência da Computação, durante minha jornada de estudos, tive a oportunidade de aplicar meus conhecimentos em projetos práticos e trabalhar em equipe em projetos desafiadores. Acredito que essas experiências me ajudaram a desenvolver minhas habilidades em resolução de problemas, colaboração e comunicação.</p>
+        <p>Além disso, sou apaixonado por tecnologia e estou sempre buscando aprimorar minhas habilidades e conhecimentos. Tenho experiência em trabalhar com React.js, Node.js, Express.js, SQLite e MongoDB além de outras tecnologias relacionadas. Atualmente estou estudando desenvolvimento de APIs Rest com C#, .NET e ASP.NET. Também estou familiarizado com Git/Github e metodologias ágeis, especialmente Scrum e Kanban, e acredito que elas são fundamentais para o sucesso de um projeto</p>
+      </aside>
+    </section>
+
+    <section class="technologies">
+      <h1 class="title">Tecnologias</h1>
+      <aside class="tech_wrapper flex">
+        
+      </aside>
+    </section>
+
+    <section class="projects">
+      <h1 class="title">Projetos</h1>
+    </section>
+  </main>
 
   <footer class="flex">
     <h1 id="footer_title">&copy; 2023 Ian Vitor</h1>
+    <section class="footer_icons icons_container flex">
+      <a class="icon" href="https://github.com/IanVitor" target="_blank"><i class="devicon-github-original"></i></a>
+      <a class="icon" href="https://www.linkedin.com/in/ian-vitor-moraes-da-silva/" target="_blank"><i
+          class="devicon-linkedin-plain"></i></a>
+      <a class="icon" href="mailto:ianvitor976@gmail.com" target="_blank"><i class=" fa-solid fa-envelope"></i></a>
+    </section>
   </footer>
+
+  <script src="scripts/tech.js"></script>
 </body>
+
 </html>
