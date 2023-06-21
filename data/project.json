@@ -1,0 +1,33 @@
+{
+  "projects":
+  [
+    {
+      "image": "../assets/projects/devfy.png",
+      "title": "Devfy",
+      "description": "player de música responsivo.",
+      "icons": ["devicon-html5-plain colored", "devicon-css3-plain colored", "devicon-javascript-plain colored"],
+      "url": "https://ianvitor.github.io/DevFy/"
+    },
+    {
+      "image": "../assets/projects/calculadora IRRF.png",
+      "title": "Calculadora IRRF",
+      "description": "Calculadora de Imposto de Renda Retido na Fonte( IRRF ).",
+      "icons": ["devicon-html5-plain colored", "devicon-css3-plain colored", "devicon-javascript-plain colored"],
+      "url": "https://ianvitor.github.io/Calculadora-IRRF/"
+    },
+    {
+      "image": "../assets/projects/Calculadora-imc.png",
+      "title": "Calculadora IMC",
+      "description": "Descubra seu IMC facilmente!",
+      "icons": ["devicon-html5-plain colored", "devicon-css3-plain colored", "devicon-javascript-plain colored"],
+      "url": "https://ianvitor.github.io/Calculadora-imc/"
+    },
+    {
+      "image": "../assets/projects/climats.png",
+      "title": "Climats",
+      "description": "App para previsão de clima.",
+      "icons": ["devicon-html5-plain colored", "devicon-css3-plain colored", "devicon-javascript-plain colored"],
+      "url": "https://ianvitor.github.io/Climats/"
+    }
+  ]
+}
